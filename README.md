@@ -115,11 +115,15 @@ The overlay grid starts in the top left corner of the image and width counts lef
 
 To put the logo watermark at position (10,10) we will set `"overlay=10:10"`.
 
+![Watermark Top Left](img/watermark_1.png)
+
 ```sh
 ffmpeg -i output.mp4 -i logo.png -filter_complex "overlay=10:10" output2.mp4
 ```
 
 When using 2 images you can use the abbreviations for the height and width of `W:H` for the first image and `w:h` for the second image. Thus we can move the water mark to the bottom right corner using the `"overlay=W-w:H-h"` command to position it at the bottom right corner of the first image, less the dimensions of the logo. 
+
+![Watermark Bottom Right](img/watermark_2.png)
 
 ```sh
 ffmpeg -i output.mp4 -i logo.png -filter_complex "overlay=W-w:H-h" output2.mp4
