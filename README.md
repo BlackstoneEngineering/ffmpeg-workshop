@@ -6,6 +6,11 @@ There is a presentation that accompanies this workshop, you can find the links b
 - [Google Slides](https://docs.google.com/presentation/d/1RYZgO7Yli9Ptuzr1L-lkmZl-c2lrQsHzcRXyupOvCqE)
 - [PDF](img/presentation.pdf)
 
+**Youtube Video of Presentation (Click to Play)**
+
+[![Youtube Presentation - Video](https://img.youtube.com/vi/4TRHUuVsCSI/0.jpg)](https://www.youtube.com/watch?v=4TRHUuVsCSI)
+
+
 # Setup
 In this workshop we will use 2 tools, `ffmpeg` to create videos and `vlc` to view the results. 
 
