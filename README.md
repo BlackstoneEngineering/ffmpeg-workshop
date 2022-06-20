@@ -188,6 +188,7 @@ ffmpeg -i output.mp4 \
 |ratio|pixels|
 |---|---|
 |1:1|1200:1200|
+
 Minimum width : 600px for square, 640px for other ratios
 Supported Ratio's 1:1 -> 2:1
 If height exceeds width video will be cropped 1:1
